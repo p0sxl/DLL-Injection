@@ -6,7 +6,6 @@ PAGE_READWRITE = 0x04
 PROCESS_ALL_ACCESS = ( 0x00F0000 | 0x00100000 | 0xFFF )
 VIRTUAL_MEM = ( 0x1000 | 0x2000 )
 
-print "DLL Injectior --Destructors.net"
 
 
 print "[+] dllinj.py pid dll"
