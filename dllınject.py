@@ -41,7 +41,7 @@ if not kernel32.CreateRemoteThread(h_process, None, 0, h_loadlib, arg_address, 0
     print "[!]  Inject Başarısız oldu "
     sys.exit(0)
 
-print "[+]Belirtilen hedefde >>>> %08x yaratildi." %(thread_id.value)
+print ("[+]Belirtilen hedefde >>>> %08x yaratildi." %(thread_id.value))
 
 
 
